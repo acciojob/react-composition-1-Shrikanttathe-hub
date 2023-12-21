@@ -5,7 +5,7 @@ import './../styles/App.css';
 import Tabs from "./Tabs"; 
 
 
-const tabData =[
+const tabData = [
   {
     title: "Tab 1",
     content: "This is the content for Tab 1."

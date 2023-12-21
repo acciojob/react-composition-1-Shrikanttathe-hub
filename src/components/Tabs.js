@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 const Tabs = ({tabData}) => {
 
-     const [activeTab , setActiveTab] = useState("tabData[0]")
+     const [activeTab , setActiveTab] = useState(tabData[0])
 
     return(
         <div>
@@ -14,7 +14,9 @@ const Tabs = ({tabData}) => {
                 }
              </ul>
             <div>
-                <p>{activeTab.content}</p>
+                {
+                  <p>{activeTab.content}</p>
+                }
             </div>
         </div>
     )
